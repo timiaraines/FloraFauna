@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2F048928EBED23000ED31C /* FloraFaunaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F048828EBED23000ED31C /* FloraFaunaApp.swift */; };
+		0D2F048B28EBED23000ED31C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F048A28EBED23000ED31C /* ContentView.swift */; };
+		0D2F048D28EBED23000ED31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F048C28EBED23000ED31C /* Assets.xcassets */; };
+		0D2F049128EBED23000ED31C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D2F049028EBED23000ED31C /* Preview Assets.xcassets */; };
+		0D2F049B28EBED24000ED31C /* FloraFaunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F049A28EBED24000ED31C /* FloraFaunaTests.swift */; };
+		0D2F04A528EBED24000ED31C /* FloraFaunaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F04A428EBED24000ED31C /* FloraFaunaUITests.swift */; };
+		0D2F04A728EBED24000ED31C /* FloraFaunaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2F04A628EBED24000ED31C /* FloraFaunaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D2F049728EBED24000ED31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2F047D28EBED22000ED31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2F048428EBED23000ED31C;
+			remoteInfo = FloraFauna;
+		};
+		0D2F04A128EBED24000ED31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D2F047D28EBED22000ED31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D2F048428EBED23000ED31C;
+			remoteInfo = FloraFauna;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2F048528EBED23000ED31C /* FloraFauna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloraFauna.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2F048828EBED23000ED31C /* FloraFaunaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloraFaunaApp.swift; sourceTree = "<group>"; };
+		0D2F048A28EBED23000ED31C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D2F048C28EBED23000ED31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D2F048E28EBED23000ED31C /* FloraFauna.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FloraFauna.entitlements; sourceTree = "<group>"; };
+		0D2F049028EBED23000ED31C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D2F049628EBED24000ED31C /* FloraFaunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloraFaunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2F049A28EBED24000ED31C /* FloraFaunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloraFaunaTests.swift; sourceTree = "<group>"; };
+		0D2F04A028EBED24000ED31C /* FloraFaunaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloraFaunaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D2F04A428EBED24000ED31C /* FloraFaunaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloraFaunaUITests.swift; sourceTree = "<group>"; };
+		0D2F04A628EBED24000ED31C /* FloraFaunaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloraFaunaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D2F048228EBED23000ED31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049328EBED24000ED31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049D28EBED24000ED31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2F047C28EBED22000ED31C = {
+			isa = PBXGroup;
+			children = (
+				0D2F048728EBED23000ED31C /* FloraFauna */,
+				0D2F049928EBED24000ED31C /* FloraFaunaTests */,
+				0D2F04A328EBED24000ED31C /* FloraFaunaUITests */,
+				0D2F048628EBED23000ED31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D2F048628EBED23000ED31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F048528EBED23000ED31C /* FloraFauna.app */,
+				0D2F049628EBED24000ED31C /* FloraFaunaTests.xctest */,
+				0D2F04A028EBED24000ED31C /* FloraFaunaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D2F048728EBED23000ED31C /* FloraFauna */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F048828EBED23000ED31C /* FloraFaunaApp.swift */,
+				0D2F048A28EBED23000ED31C /* ContentView.swift */,
+				0D2F048C28EBED23000ED31C /* Assets.xcassets */,
+				0D2F048E28EBED23000ED31C /* FloraFauna.entitlements */,
+				0D2F048F28EBED23000ED31C /* Preview Content */,
+			);
+			path = FloraFauna;
+			sourceTree = "<group>";
+		};
+		0D2F048F28EBED23000ED31C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F049028EBED23000ED31C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D2F049928EBED24000ED31C /* FloraFaunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F049A28EBED24000ED31C /* FloraFaunaTests.swift */,
+			);
+			path = FloraFaunaTests;
+			sourceTree = "<group>";
+		};
+		0D2F04A328EBED24000ED31C /* FloraFaunaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D2F04A428EBED24000ED31C /* FloraFaunaUITests.swift */,
+				0D2F04A628EBED24000ED31C /* FloraFaunaUITestsLaunchTests.swift */,
+			);
+			path = FloraFaunaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D2F048428EBED23000ED31C /* FloraFauna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2F04AA28EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFauna" */;
+			buildPhases = (
+				0D2F048128EBED23000ED31C /* Sources */,
+				0D2F048228EBED23000ED31C /* Frameworks */,
+				0D2F048328EBED23000ED31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloraFauna;
+			productName = FloraFauna;
+			productReference = 0D2F048528EBED23000ED31C /* FloraFauna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D2F049528EBED24000ED31C /* FloraFaunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2F04AD28EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFaunaTests" */;
+			buildPhases = (
+				0D2F049228EBED24000ED31C /* Sources */,
+				0D2F049328EBED24000ED31C /* Frameworks */,
+				0D2F049428EBED24000ED31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2F049828EBED24000ED31C /* PBXTargetDependency */,
+			);
+			name = FloraFaunaTests;
+			productName = FloraFaunaTests;
+			productReference = 0D2F049628EBED24000ED31C /* FloraFaunaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D2F049F28EBED24000ED31C /* FloraFaunaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D2F04B028EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFaunaUITests" */;
+			buildPhases = (
+				0D2F049C28EBED24000ED31C /* Sources */,
+				0D2F049D28EBED24000ED31C /* Frameworks */,
+				0D2F049E28EBED24000ED31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D2F04A228EBED24000ED31C /* PBXTargetDependency */,
+			);
+			name = FloraFaunaUITests;
+			productName = FloraFaunaUITests;
+			productReference = 0D2F04A028EBED24000ED31C /* FloraFaunaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D2F047D28EBED22000ED31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0D2F048428EBED23000ED31C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0D2F049528EBED24000ED31C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0D2F048428EBED23000ED31C;
+					};
+					0D2F049F28EBED24000ED31C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0D2F048428EBED23000ED31C;
+					};
+				};
+			};
+			buildConfigurationList = 0D2F048028EBED22000ED31C /* Build configuration list for PBXProject "FloraFauna" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D2F047C28EBED22000ED31C;
+			productRefGroup = 0D2F048628EBED23000ED31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D2F048428EBED23000ED31C /* FloraFauna */,
+				0D2F049528EBED24000ED31C /* FloraFaunaTests */,
+				0D2F049F28EBED24000ED31C /* FloraFaunaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2F048328EBED23000ED31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F049128EBED23000ED31C /* Preview Assets.xcassets in Resources */,
+				0D2F048D28EBED23000ED31C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049428EBED24000ED31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049E28EBED24000ED31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D2F048128EBED23000ED31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F048B28EBED23000ED31C /* ContentView.swift in Sources */,
+				0D2F048928EBED23000ED31C /* FloraFaunaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049228EBED24000ED31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F049B28EBED24000ED31C /* FloraFaunaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D2F049C28EBED24000ED31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F04A528EBED24000ED31C /* FloraFaunaUITests.swift in Sources */,
+				0D2F04A728EBED24000ED31C /* FloraFaunaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D2F049828EBED24000ED31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2F048428EBED23000ED31C /* FloraFauna */;
+			targetProxy = 0D2F049728EBED24000ED31C /* PBXContainerItemProxy */;
+		};
+		0D2F04A228EBED24000ED31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D2F048428EBED23000ED31C /* FloraFauna */;
+			targetProxy = 0D2F04A128EBED24000ED31C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D2F04A828EBED24000ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D2F04A928EBED24000ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0D2F04AB28EBED24000ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FloraFauna/FloraFauna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloraFauna/Preview Content\"";
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFauna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D2F04AC28EBED24000ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FloraFauna/FloraFauna.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FloraFauna/Preview Content\"";
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFauna;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D2F04AE28EBED24000ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFaunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloraFauna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloraFauna";
+			};
+			name = Debug;
+		};
+		0D2F04AF28EBED24000ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFaunaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloraFauna.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FloraFauna";
+			};
+			name = Release;
+		};
+		0D2F04B128EBED24000ED31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFaunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloraFauna;
+			};
+			name = Debug;
+		};
+		0D2F04B228EBED24000ED31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6YZ59A5GN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mia.FloraFaunaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloraFauna;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D2F048028EBED22000ED31C /* Build configuration list for PBXProject "FloraFauna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F04A828EBED24000ED31C /* Debug */,
+				0D2F04A928EBED24000ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2F04AA28EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFauna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F04AB28EBED24000ED31C /* Debug */,
+				0D2F04AC28EBED24000ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2F04AD28EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFaunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F04AE28EBED24000ED31C /* Debug */,
+				0D2F04AF28EBED24000ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D2F04B028EBED24000ED31C /* Build configuration list for PBXNativeTarget "FloraFaunaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D2F04B128EBED24000ED31C /* Debug */,
+				0D2F04B228EBED24000ED31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D2F047D28EBED22000ED31C /* Project object */;
+}
